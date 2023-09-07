@@ -1,4 +1,5 @@
 import './App.css'
+import Count from './Count';
 
 function App() {
 
@@ -19,10 +20,14 @@ function App() {
   return (
     <>
       <h2>React Core Concepts Part2</h2>
-      <button onClick={handleClick}>Click Me</button>
-      <button onClick={handleClick2}>Click 2</button>
-      <button onClick={() => { alert('Button 3 Clicked') }}>Click 3</button>
-      <button onClick={() => addTOFive(3)}>Click 4</button>
+
+      <Count></Count>
+
+
+      <button className='buttons' onClick={handleClick}>Click Me</button>
+      <button className='buttons' onClick={handleClick2}>Click 2</button>
+      <button className='buttons' onClick={() => { alert('Button 3 Clicked') }}>Click 3</button>
+      <button className='buttons' onClick={() => addTOFive(3)}>Click 4</button>
     </>
   )
 }
