@@ -20,7 +20,6 @@ export default function Count() {
             <h3>Counter: {count}</h3>
 
             <button className="buttons" onClick={handleAdd}>Add</button>
-
             <button className="buttons" onClick={handleReduce}>Reduce</button>
         </div>
     )
