@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import './Users.css'
 
 export default function Users() {
 
@@ -11,7 +12,7 @@ export default function Users() {
     }, []);
 
     return (
-        <div>
+        <div className="boxs">
             <h3>Users: {users.length}</h3>
         </div>
     )
