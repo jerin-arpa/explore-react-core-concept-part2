@@ -1,6 +1,7 @@
 import './App.css'
 import Count from './Count';
 import Friends from './Friends';
+import Posts from './Posts';
 import Team from './Team';
 import Users from './User';
 
@@ -24,6 +25,7 @@ function App() {
     <>
       <h2>React Core Concepts Part2</h2>
 
+      <Posts></Posts>
       <Friends></Friends>
       <Users></Users>
       <Count></Count>
