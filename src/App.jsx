@@ -25,7 +25,6 @@ function App() {
     <>
       <h2>React Core Concepts Part2</h2>
 
-      <Posts></Posts>
       <Friends></Friends>
       <Users></Users>
       <Count></Count>
@@ -36,6 +35,8 @@ function App() {
       <button className='buttons' onClick={handleClick2}>Click 2</button>
       <button className='buttons' onClick={() => { alert('Button 3 Clicked') }}>Click 3</button>
       <button className='buttons' onClick={() => addTOFive(3)}>Click 4</button>
+
+      <Posts></Posts>
     </>
   )
 }
